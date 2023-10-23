@@ -47,17 +47,15 @@ p {
 }
 
 section.normal {
-    background-image: url(imagens/tora\ \(2\).jpg);
+    background-color:#2D5930 ;
     background-size: cover;
-    height: 300px;
+    height: 800px;
     
     
 }
 section.normal > p {
     margin: auto;
-    padding: 38px 7px 129px 10px;
     text-align: center;
-    backdrop-filter: blur(20px);
     color: white;
     width: 100vw;
     height: 10vh;
@@ -86,7 +84,7 @@ section.imagem#cozinha{
     background-size: cover;
     background-position: left center;
     max-width: 100%;
-    height: 800px;
+    height: auto;
     
 }
 section.imagem#granito{
@@ -94,5 +92,5 @@ section.imagem#granito{
     background-size: cover;
     background-position: left center;
     max-width: 100%;
-    height: 1000px;
+    height: auto;
 }
