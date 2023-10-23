@@ -23,10 +23,9 @@ html, body {
 
 
 section {
-    width: 100%;
-    height: 600px;
+    width: 100vw;
     font-family: var(--font3);
-    min-height: 300px;
+    min-height: 800px;
     display: flex;
     align-items: center;
     font-size: 3.5vw;
@@ -35,7 +34,7 @@ section {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     p {
         font-size: 14px;
         padding: 10px;
@@ -87,12 +86,13 @@ section.imagem#cozinha{
     background-size: cover;
     background-position: left center;
     max-width: 100%;
-    height: auto;
+    height: 800px;
+    
 }
 section.imagem#granito{
     background-image: url(imagens/afdd3f00-7421-4465-ad4b-90bfe0070433.png);
     background-size: cover;
     background-position: left center;
     max-width: 100%;
-    height: auto;
+    height: 1000px;
 }
