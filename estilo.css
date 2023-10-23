@@ -29,33 +29,44 @@ section {
     min-height: 300px;
     display: flex;
     align-items: center;
-    font-size: 2vw;
+    font-size: 3.5vw;
 
 
 
 }
 
-
+@media (max-width: 768px) {
+    p {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 20px;
+}
 
 section.normal {
     background-image: url(imagens/tora\ \(2\).jpg);
     background-size: cover;
     height: 300px;
     
+    
 }
 section.normal > p {
-    
-
     margin: auto;
-    padding: 90px;
+    padding: 38px 7px 129px 10px;
     text-align: center;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     color: white;
     width: 100vw;
-    height: 50px;
+    height: 10vh;
+    
     
     
 }
+
 section.imagem {
     color: white;
     background-attachment: fixed; 
@@ -66,18 +77,22 @@ section.imagem > p {
     
     background-color: rgba(105, 105, 105, 0.37);
     display: inline-block;
-    padding: 10px;
-    text-align: left;
     padding: 90px;
+    text-align: left;
+    
     
 }
 section.imagem#cozinha{
     background-image: url(imagens/cozinha.jpeg);
     background-size: cover;
     background-position: left center;
+    max-width: 100%;
+    height: auto;
 }
 section.imagem#granito{
     background-image: url(imagens/afdd3f00-7421-4465-ad4b-90bfe0070433.png);
     background-size: cover;
     background-position: left center;
+    max-width: 100%;
+    height: auto;
 }
