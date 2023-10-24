@@ -25,10 +25,10 @@ html, body {
 section {
     width: 100vw;
     font-family: var(--font3);
-    min-height: 800px;
     display: flex;
     align-items: center;
-    font-size: 3.5vw;
+    font-size: 3vw;
+    
 
 
 
@@ -49,7 +49,7 @@ p {
 section.normal {
     background-color:#2D5930 ;
     background-size: cover;
-    height: 800px;
+    height: 70vh;
     
     
 }
@@ -67,7 +67,8 @@ section.normal > p {
 section.imagem {
     color: white;
     background-attachment: fixed; 
-    box-shadow: inset 1px 0px 20px 0px black;   
+    box-shadow: inset 1px 0px 20px 0px black; 
+    height: 100vh;  
 
 }
 section.imagem > p {
@@ -84,7 +85,7 @@ section.imagem#cozinha{
     background-size: cover;
     background-position: left center;
     max-width: 100%;
-    height: auto;
+    
     
 }
 section.imagem#granito{
@@ -92,5 +93,5 @@ section.imagem#granito{
     background-size: cover;
     background-position: left center;
     max-width: 100%;
-    height: auto;
+    
 }
