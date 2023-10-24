@@ -5,7 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@500&display=swap');
  
-   
+  
 
 * {
     margin: 0 ;
@@ -33,10 +33,10 @@ header{
     nav{
         background-color: #F2E085;
         padding: 10px;
-        min-width: 300px;
-        max-width: 720px;
+        
         
     }
+    
     nav > a{
         font-family: var(--font3);
         font-size: 3vh;
@@ -44,6 +44,15 @@ header{
         color:black;
         margin: 10px;
         text-decoration: none;
+        min-width: 300px;
+        max-width: 720px;
+        text-align: left;
+        float: none;
+                
+                
+        
+        
+        
 
         
     }
