@@ -14,9 +14,31 @@
  --font2: 'Tsukimi Rounded', sans-serif;   
  --font3: 'Playpen Sans', cursive;   
 }
+header{
+    background-image: linear-gradient( to right ,black 20%,#254029,#36733A,#2D5930);
+    height:338px;
+    
+    }
+    header img {
+        max-width: 100%; /* Garante que a imagem não ultrapasse a largura do cabeçalho */
+            height: auto; /* Mantém a proporção original da imagem */
+            display: block; /* Remove espaços extras ao redor da imagem */
+            margin: 0 auto; /* Centraliza a imagem horizontalmente no cabeçalho */
+            position:absolute;
+            top: -100px;
+            left: 269px;
+    }
+    nav{
+        background-color: #F2E085;
+        padding: 10px;
+    }
+    nav > a{
+        font-family: var(--font1);
+        font-size: 3vh;
+        
+    }
 html, body {
     min-height: 100vh;
-    background-color:tan;
     
 }
 
