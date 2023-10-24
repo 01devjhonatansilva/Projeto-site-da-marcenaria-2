@@ -24,18 +24,31 @@ header{
             height: auto; /* Mantém a proporção original da imagem */
             display: block; /* Remove espaços extras ao redor da imagem */
             margin: 0 auto; /* Centraliza a imagem horizontalmente no cabeçalho */
-            position:absolute;
+            position:relative;
             top: -100px;
-            left: 269px;
+            left: 15px;
     }
     nav{
         background-color: #F2E085;
         padding: 10px;
     }
     nav > a{
-        font-family: var(--font1);
+        font-family: var(--font3);
         font-size: 3vh;
+        font-weight: bolder;
+        color:black;
+        margin: 10px;
+        text-decoration: none;
+
         
+    }
+    a:hover{
+        padding: 11px;
+        color: white;
+        background-color: #36733A;
+        border-radius: 10px;
+        transition-duration: 0.3s;
+
     }
 html, body {
     min-height: 100vh;
@@ -45,7 +58,7 @@ html, body {
 
 
 section {
-    width: 100vw;
+    max-width:100% ;
     font-family: var(--font3);
     display: flex;
     align-items: center;
@@ -107,6 +120,7 @@ section.imagem#cozinha{
     background-size: cover;
     background-position: left center;
     max-width: 100%;
+    display: block;
     
     
 }
@@ -115,5 +129,6 @@ section.imagem#granito{
     background-size: cover;
     background-position: left center;
     max-width: 100%;
+    display: block;
     
 }
