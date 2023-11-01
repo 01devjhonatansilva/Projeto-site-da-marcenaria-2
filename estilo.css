@@ -18,7 +18,8 @@
 }
 header{
     background-image: linear-gradient( to right ,black 21%,#254029,#36733A,#2D5930);
-    height:338px;
+    height:320px;
+    width: 100vw;
     
     }
     header img {
@@ -33,6 +34,7 @@ header{
     nav{
         background-color: #F2E085;
         padding: 10px;
+       
         
         
     }
@@ -99,6 +101,7 @@ section.normal {
     background-color:#2D5930 ;
     background-size: cover;
     height: 70vh;
+    position: relative;
     
     
 }
@@ -118,6 +121,7 @@ section.imagem {
     background-attachment: fixed; 
     box-shadow: inset 1px 0px 20px 0px black; 
     height: 100vh;  
+    padding: 30px;
 
 }
 section.imagem > p {
@@ -125,7 +129,8 @@ section.imagem > p {
     background-color: rgba(105, 105, 105, 0.37);
     display: inline-block;
     padding: 90px;
-    text-align: left;
+    text-align: left ;
+    
     
     
 }
