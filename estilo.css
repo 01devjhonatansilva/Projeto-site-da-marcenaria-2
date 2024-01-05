@@ -23,10 +23,10 @@ header{
     
     }
     header img {
-        max-width: 100%; /* Garante que a imagem não ultrapasse a largura do cabeçalho */
-            height: auto; /* Mantém a proporção original da imagem */
-            display: block; /* Remove espaços extras ao redor da imagem */
-            margin: 0 auto; /* Centraliza a imagem horizontalmente no cabeçalho */
+           max-width: 100%; 
+            
+            display: block; 
+            margin:  auto; 
             position:relative;
             top: -100px;
             left: 15px;
@@ -34,6 +34,7 @@ header{
     nav{
         background-color: #F2E085;
         padding: 10px;
+        width: 100vw;
        
         
         
@@ -67,7 +68,7 @@ header{
 
     }
 html, body {
-    min-height: 100vh;
+ width: 100vw;
     
 }
 
@@ -102,6 +103,7 @@ section.normal {
     background-size: cover;
     height: 70vh;
     position: relative;
+    width: 100vw;
     
     
 }
@@ -149,7 +151,8 @@ section.imagem#granito{
     background-image: url(imagens/afdd3f00-7421-4465-ad4b-90bfe0070433.png);
     background-size: cover;
     background-position: left center;
-    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
     display: block;
     
 }
