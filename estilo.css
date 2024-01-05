@@ -8,8 +8,8 @@
   
 
 * {
-    margin: 0 ;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 :root {
  --font1:Tahoma,Geneva, Verdana, sans-serif ;
@@ -137,9 +137,11 @@ section.imagem > p {
 section.imagem#cozinha{
     background-image: url(imagens/cozinha.jpeg);
     background-size: cover;
-    background-position: left center;
-    max-width: 100%;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
     display: block;
+
     
     
 }
